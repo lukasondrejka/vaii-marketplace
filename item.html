@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="sass/app.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-sm navbar-dark fixed-top main-nav">
+    <div class="container">
+        <a class="navbar-brand" href="items.html">Marketplace</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Log In</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="signup.html">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- END Navbar -->
+
+<!-- Main Content -->
+<main class="content">
+    <div class="navbar-spacer"></div>
+
+    <!-- Item -->
+    <div class="container card item-card-block mb-3 mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="p-4">
+                    <img src="images/notebook.jpg" class="img-fluid rounded item-img" alt="Item image">
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="card-body pl-0 p-4">
+                    <h1 class="card-title">Notebook</h1>
+                    <p class="card-text"><small class="text-muted">Electronics</small></p>
+                    <p class="card-text"><small class="text-muted">Created 1 hour ago</small></p>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc facilisis ante non magna feugiat, sed euismod neque aliquet. Nulla facilisi. Nulla et consequat ipsum. Suspendisse libero diam, fringilla at tempor in, semper a odio. Pellentesque placerat mauris et nisi mattis vulputate. Pellentesque posuere dictum ex, non sodales massa euismod non. Proin elementum nibh eu quam laoreet, imperdiet dapibus ex laoreet. Phasellus fermentum eu est ac dapibus. Quisque dapibus tempor nibh, ac pulvinar nisi finibus in. Mauris vitae volutpat ligula, sit amet blandit nisl. Mauris consectetur odio neque, ut posuere quam tempus vitae. Mauris porttitor elit vel lacus aliquam venenatis. Sed suscipit ligula sed tincidunt faucibus. Maecenas ullamcorper tincidunt orci, euismod vulputate urna pharetra vel. In varius, lacus et vulputate laoreet, mauris purus dignissim quam, eu finibus sapien lectus a tellus. Etiam maximus massa quis mauris rhoncus venenatis.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix p-4">
+            <div class="float-end">
+                <h3><span class="badge bage-lg rounded-pill bg-primary">350 €</span></h3>
+            </div>
+        </div>
+    </div>
+    <!-- END Item -->
+
+
+</main>
+<!-- END Main Content -->
+
+<!-- Footer -->
+<footer class="p-4 bg-dark text-white text-center">
+    <p>Marketplace</p>
+</footer>
+<!-- END Footer -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
