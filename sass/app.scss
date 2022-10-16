@@ -47,8 +47,18 @@ footer {
 }
 
 .item-img {
-  max-height: 200px;
-  max-width: 200px;
   text-align: center;
   border: 1px solid rgba(0, 0, 0, 0.1)
+}
+
+.item-title {
+  &,
+  &:hover {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.85);
+  }
+
+  &:hover {
+    opacity: 0.75;
+  }
 }
