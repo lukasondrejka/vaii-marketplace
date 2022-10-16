@@ -1,0 +1,20 @@
+
+.navbar {
+  background-color: $navbar-color;
+  color: $navbar-text-color !important;
+
+  .navbar-brand,
+  .nav-link {
+    color: $navbar-text-color;
+    transition: all 0.2s;
+    &:hover {
+      color: rgba($navbar-text-color, 0.8);
+
+    }
+  }
+}
+
+.navbar,
+.navbar-spacer {
+  min-height: 56px;
+}

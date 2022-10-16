@@ -3,25 +3,6 @@
   font-family: "Nunito", serif;
 }
 
-.navbar {
-  background-color: #0d6efd;
-  color: white !important;
-}
-.navbar .navbar-brand,
-.navbar .nav-link {
-  color: white;
-  transition: all 0.2s;
-}
-.navbar .navbar-brand:hover,
-.navbar .nav-link:hover {
-  color: rgba(255, 255, 255, 0.8);
-}
-
-.navbar,
-.navbar-spacer {
-  min-height: 56px;
-}
-
 html,
 body {
   background-color: #fcfcfc;
@@ -48,6 +29,25 @@ footer {
 }
 .item-title:hover {
   opacity: 0.75;
+}
+
+.navbar {
+  background-color: #0d6efd;
+  color: white !important;
+}
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: white;
+  transition: all 0.2s;
+}
+.navbar .navbar-brand:hover,
+.navbar .nav-link:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar,
+.navbar-spacer {
+  min-height: 56px;
 }
 
 /*# sourceMappingURL=app.css.map */
